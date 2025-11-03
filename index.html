@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <div class="header">
+        <nav>
+            <span> <img width="60px" src="img/logo.svg" alt="">
+            </span>
+            <div class="btn1">
+
+                <button class="btn eng"> <!-- added bg so white is visible -->
+  <svg fill="#ffffff" width="18px" height="18px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+    <path d="M239.13184,212.42188l-56-112a8.0001,8.0001,0,0,0-14.31055,0L147.12378,143.817a88.01219,88.01219,0,0,1-47.15234-16.89991A103.63932,103.63932,0,0,0,127.67187,64h24.30469a8,8,0,0,0,0-16h-56V32a8,8,0,0,0-16,0V48h-56a8,8,0,0,0,0,16h87.63257a87.71326,87.71326,0,0,1-23.64038,52.34106A87.6285,87.6285,0,0,1,68.98682,85.332a7.99985,7.99985,0,1,0-15.083,5.33789A103.55961,103.55961,0,0,0,75.9856,126.93945,87.52745,87.52745,0,0,1,23.97656,144a8,8,0,0,0,0,16,103.48476,103.48476,0,0,0,64.01331-22.09045A104.14165,104.14165,0,0,0,139.43115,159.202l-26.60986,53.21985a8.00006,8.00006,0,0,0,14.31055,7.15625L140.9209,192h70.11133l13.78906,27.57813a8.00006,8.00006,0,0,0,14.31055-7.15625ZM148.9209,176l27.05566-54.11133L203.03223,176Z"/>
+  </svg>
+
+English <!-- Paste this wherever you need the SVG -->
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 497 277" preserveAspectRatio="xMidYMid meet" fill="#ffffff" role="img" aria-label="rounded downward triangle">
+    <path d="M 290 10 L 289 11 L 283 11 L 282 12 L 245 12 L 244 13 L 242 13 L 241 14 L 236 14 L 235 15 L 227 15 L 226 16 L 191 16 L 190 15 L 188 15 L 187 14 L 178 14 L 177 15 L 71 15 L 70 14 L 61 14 L 60 13 L 28 13 L 27 14 L 24 14 L 23 15 L 22 15 L 21 16 L 20 16 L 19 17 L 18 17 L 17 18 L 16 18 L 8 26 L 8 27 L 7 28 L 7 29 L 6 30 L 6 31 L 5 32 L 5 33 L 4 34 L 4 37 L 3 38 L 3 49 L 4 50 L 4 53 L 5 54 L 5 55 L 6 56 L 6 57 L 7 58 L 7 59 L 8 60 L 8 61 L 10 63 L 10 64 L 20 74 L 21 74 L 23 76 L 24 76 L 25 77 L 26 77 L 29 80 L 30 80 L 32 82 L 33 82 L 36 85 L 37 85 L 54 102 L 55 102 L 63 110 L 64 110 L 72 118 L 73 118 L 81 126 L 82 126 L 97 141 L 98 141 L 113 156 L 114 156 L 137 179 L 138 179 L 149 190 L 150 190 L 164 204 L 165 204 L 176 215 L 177 215 L 189 227 L 190 227 L 201 238 L 202 238 L 214 250 L 215 250 L 226 261 L 227 261 L 238 272 L 239 272 L 240 273 L 241 273 L 243 275 L 244 275 L 246 277 L 247 277 L 249 275 L 250 275 L 252 273 L 253 273 L 254 272 L 255 272 L 266 261 L 267 261 L 278 250 L 279 250 L 291 238 L 292 238 L 303 227 L 304 227 L 316 215 L 317 215 L 328 204 L 329 204 L 343 190 L 344 190 L 355 179 L 356 179 L 379 156 L 380 156 L 395 141 L 396 141 L 411 126 L 412 126 L 420 118 L 421 118 L 429 110 L 430 110 L 438 102 L 439 102 L 456 85 L 457 85 L 460 82 L 461 82 L 463 80 L 464 80 L 467 77 L 468 77 L 469 76 L 470 76 L 472 74 L 473 74 L 483 64 L 483 63 L 485 61 L 485 60 L 486 59 L 486 58 L 487 57 L 487 56 L 488 55 L 488 54 L 489 53 L 489 50 L 490 49 L 490 38 L 489 37 L 489 34 L 488 33 L 488 32 L 487 31 L 487 30 L 486 29 L 486 28 L 485 27 L 485 26 L 477 18 L 476 18 L 475 17 L 474 17 L 473 16 L 472 16 L 471 15 L 470 15 L 469 14 L 468 14 L 467 13 L 435 13 L 434 14 L 425 14 L 424 15 L 318 15 L 317 14 L 308 14 L 307 15 L 305 15 L 304 16 L 269 16 L 268 15 L 260 15 L 259 14 L 254 14 L 253 13 L 251 13 L 250 12 L 213 12 L 212 11 L 206 11 L 205 10 L 290 10 Z"/>
+  </svg>
+
+</button>
+                <button class="btn sign">Sign In</button>
+            </div>
+        </nav>
+        <div class="box">
+        </div>
+
+
+        <div class="main">
+            <span>Unlimited movies, TV shows and more</span>
+            <span>
+                Starts at ₹149. Cancel at any time.
+            </span>
+            <span>
+                Ready to watch? Enter your email to create or restart your membership.
+            </span>
+            <div class="main-button">
+                <input  id="text1" name="Email address" type="text" placeholder="Email address">
+                <button>Get Started  
+                    <?xml version="1.0" encoding="UTF-8"?>
+  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512" fill="none">
+    <path d="M184 112l144 144-144 144" stroke="#141B34" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg></button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="separation"></div>
+
+    <section class="first">
+        <div class="trend">
+            <p>Trending Now</p>
+        </div>
+        <div class="next">
+          <?xml version="1.0" encoding="UTF-8"?>
+  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512" fill="none">
+    <path d="M184 112l144 144-144 144" stroke="#141B34" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <div class="ul">
+            <ul>
+                <li class="kapil">
+                    <img src="img/the-great-indian-kapil-show.jpg" alt="">
+                </li>
+                <li class="Jaat">
+                    <img src="img/Jaat.webp" alt="">
+                </li>
+                <li class="Hit">
+                    <img src="img/Hit 3.jpg" alt="">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="50" height="61" viewBox="0 0 750 1061">
+  <image href="cc1090dd-a26d-47ec-9797-73d7f153e948.png" width="50" height="61" />
+</svg> -->
+    
+                </li>
+                <li class="Rana">
+                    <img src="img/Rana naidu.jpeg" alt="">
+                </li>
+                <li class="royal">
+                    <img src="img/The royal.jpg" alt="">
+                </li>
+                <li class="Chhaava">
+                    <img src="img/Chhaava-02.jpg" alt="">
+                </li>
+                <li class="squid">
+                    <img src="img/Squid_Game_season_3_poster.png" alt="">
+                </li>
+                <li class="Retro">
+                    <img src="img/Retro.jpg" alt="">
+                </li>
+                <li class="Skinder">
+                    <img src="img/Skinder.jpg" alt="">
+                </li>
+                <li class="pushpa">
+                    <img src="img/pushpa 2.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="second">
+        <div class="more">
+            <p>More reasons to join</p>
+        </div>
+        <div class="info">
+            <div class="boxes box1">
+                <h2>Enjoy on your TV</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="boxes box2">
+                <h2>Download your shows to watch offline</h2>
+                <p>Save your favourites easily and always have something to watch</p>
+            </div>
+            <div class="boxes box3">
+                <h2>Watch everywhere</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+            </div>
+            <div class="boxes box4">
+                <h2>Create profiles for kids</h2>
+                <p>Send kids on adventures with their favourite characters in a space made just for them — free with
+                    your membership.</p>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="third">
+        <div class="question">
+            <div class="fre">
+                <h2>Frequently Asked Questions</h2>
+                <div>
+                    <div class="frebox">
+                        <p>What is Netflix?</p>
+  <?xml version="1.0" encoding="UTF-8"?>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 4V20M20 12H4" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+
+
+                    </div>
+                    <div class="frebox">
+                        <p>How much does Netflix cost?</p>
+  <?xml version="1.0" encoding="UTF-8"?>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 4V20M20 12H4" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+
+                    </div>
+                    <div class="frebox">
+                        <p>Where can I watch?</p>
+  <?xml version="1.0" encoding="UTF-8"?>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 4V20M20 12H4" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+
+                    </div>
+                    <div class="frebox">
+                        <p>How do I cancel?</p>
+   <?xml version="1.0" encoding="UTF-8"?>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 4V20M20 12H4" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+
+                    </div>
+                    <div class="frebox">
+                        <p>What can I watch on Netflix?</p>
+   <?xml version="1.0" encoding="UTF-8"?>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 4V20M20 12H4" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+
+                    </div>
+                    <div class="frebox">
+                        <p>is Netflix good for kids?</p>
+   <?xml version="1.0" encoding="UTF-8"?>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 4V20M20 12H4" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="four">
+        <div class="four-email">
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="four-text">
+                <input id="text" name="Email address" type="text" placeholder="Email address">
+                <button>Get Started
+  <?xml version="1.0" encoding="UTF-8"?>
+  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512" fill="none">
+    <path d="M184 112l144 144-144 144" stroke="#141B34" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="call">
+        <p> Questions? Call 000-800-919-1743</p>
+    </div>
+    <div class="grids">
+        <div class="grid">
+            <a href="FAQ">FAQ</a>
+            <a href="Account">Account</a>
+            <a href="Investor Relations">Investor Relations</a>
+            <a href="Ways to Watch">Ways to Watch</a>
+        </div>
+        <div class="grid">
+            <a href="Privacy">Privacy</a>
+            <a href="Corporate Information">Corporate Information</a>
+            <a href="Speed Test">Speed Test</a>
+            <a href="Only on Netflix">Only on Netflix</a>
+        </div>
+        <div class="grid">
+            <a href="Help Centre">Help Centre</a>
+            <a href="Media Centre">Media Centre</a>
+            <a href="Jobs">Jobs</a>
+            <a href="Terms of Use">Terms of Use</a>
+        </div>
+        <div class="grid">
+            <a href="Cookie Preferences">Cookie Preferences</a>
+            <a href="Contact Us">Contact Us</a>
+            <a href="Legal Notices">Legal Notices</a>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <div class="last">
+                <button class="btn eng"> <!-- added bg so white is visible -->
+  <svg fill="#ffffff" width="18px" height="18px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+    <path d="M239.13184,212.42188l-56-112a8.0001,8.0001,0,0,0-14.31055,0L147.12378,143.817a88.01219,88.01219,0,0,1-47.15234-16.89991A103.63932,103.63932,0,0,0,127.67187,64h24.30469a8,8,0,0,0,0-16h-56V32a8,8,0,0,0-16,0V48h-56a8,8,0,0,0,0,16h87.63257a87.71326,87.71326,0,0,1-23.64038,52.34106A87.6285,87.6285,0,0,1,68.98682,85.332a7.99985,7.99985,0,1,0-15.083,5.33789A103.55961,103.55961,0,0,0,75.9856,126.93945,87.52745,87.52745,0,0,1,23.97656,144a8,8,0,0,0,0,16,103.48476,103.48476,0,0,0,64.01331-22.09045A104.14165,104.14165,0,0,0,139.43115,159.202l-26.60986,53.21985a8.00006,8.00006,0,0,0,14.31055,7.15625L140.9209,192h70.11133l13.78906,27.57813a8.00006,8.00006,0,0,0,14.31055-7.15625ZM148.9209,176l27.05566-54.11133L203.03223,176Z"/>
+  </svg>English <!-- Paste this wherever you need the SVG -->
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 497 277" preserveAspectRatio="xMidYMid meet" fill="#ffffff" role="img" aria-label="rounded downward triangle">
+    <path d="M 290 10 L 289 11 L 283 11 L 282 12 L 245 12 L 244 13 L 242 13 L 241 14 L 236 14 L 235 15 L 227 15 L 226 16 L 191 16 L 190 15 L 188 15 L 187 14 L 178 14 L 177 15 L 71 15 L 70 14 L 61 14 L 60 13 L 28 13 L 27 14 L 24 14 L 23 15 L 22 15 L 21 16 L 20 16 L 19 17 L 18 17 L 17 18 L 16 18 L 8 26 L 8 27 L 7 28 L 7 29 L 6 30 L 6 31 L 5 32 L 5 33 L 4 34 L 4 37 L 3 38 L 3 49 L 4 50 L 4 53 L 5 54 L 5 55 L 6 56 L 6 57 L 7 58 L 7 59 L 8 60 L 8 61 L 10 63 L 10 64 L 20 74 L 21 74 L 23 76 L 24 76 L 25 77 L 26 77 L 29 80 L 30 80 L 32 82 L 33 82 L 36 85 L 37 85 L 54 102 L 55 102 L 63 110 L 64 110 L 72 118 L 73 118 L 81 126 L 82 126 L 97 141 L 98 141 L 113 156 L 114 156 L 137 179 L 138 179 L 149 190 L 150 190 L 164 204 L 165 204 L 176 215 L 177 215 L 189 227 L 190 227 L 201 238 L 202 238 L 214 250 L 215 250 L 226 261 L 227 261 L 238 272 L 239 272 L 240 273 L 241 273 L 243 275 L 244 275 L 246 277 L 247 277 L 249 275 L 250 275 L 252 273 L 253 273 L 254 272 L 255 272 L 266 261 L 267 261 L 278 250 L 279 250 L 291 238 L 292 238 L 303 227 L 304 227 L 316 215 L 317 215 L 328 204 L 329 204 L 343 190 L 344 190 L 355 179 L 356 179 L 379 156 L 380 156 L 395 141 L 396 141 L 411 126 L 412 126 L 420 118 L 421 118 L 429 110 L 430 110 L 438 102 L 439 102 L 456 85 L 457 85 L 460 82 L 461 82 L 463 80 L 464 80 L 467 77 L 468 77 L 469 76 L 470 76 L 472 74 L 473 74 L 483 64 L 483 63 L 485 61 L 485 60 L 486 59 L 486 58 L 487 57 L 487 56 L 488 55 L 488 54 L 489 53 L 489 50 L 490 49 L 490 38 L 489 37 L 489 34 L 488 33 L 488 32 L 487 31 L 487 30 L 486 29 L 486 28 L 485 27 L 485 26 L 477 18 L 476 18 L 475 17 L 474 17 L 473 16 L 472 16 L 471 15 L 470 15 L 469 14 L 468 14 L 467 13 L 435 13 L 434 14 L 425 14 L 424 15 L 318 15 L 317 14 L 308 14 L 307 15 L 305 15 L 304 16 L 269 16 L 268 15 L 260 15 L 259 14 L 254 14 L 253 13 L 251 13 L 250 12 L 213 12 L 212 11 L 206 11 L 205 10 L 290 10 Z"/>
+  </svg></button>
+            </div>
+            <div class="Netflix">
+                Netflix India
+            </div>
+            <p>
+                This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="Learn more">Learn
+                    more</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
